@@ -1,0 +1,216 @@
+/* TODO: design your profile with CSS */
+body {
+  /* background: #F7F9FC; */
+  background-image: url(https://cutewallpaper.org/21/hyper-beast-wallpaper-1440p/55-Poster-Wallpapers-Download-at-WallpaperBro.jpg);
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  opacity: 95%;
+}
+
+.card-light-blue {
+  background: rgba(245, 179, 179, 0.96);                         /* White background */
+  padding: 25px;                             /*Internal space*/
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  margin: 20px 0;
+  background-color: white;
+  box-shadow:  1px 1px 3px black;
+  width: 30%;
+  margin: 1%;
+}
+
+.card-light-blue h2{
+  font-size: 20px;
+}
+
+.card-light-blue  p{
+  font-size: 20px;
+  font-weight: 55px;
+  color: rgb(25, 72, 60);
+}
+
+.card-light-blue:hover {
+  background-color: whitesmoke;
+
+}
+
+h1, h2, h3, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #002fff;
+  font-size: 30px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+
+}
+
+a.btn-blue:hover {
+  background-color: rgb(192, 192, 227);
+}
+
+
+img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.shadow{
+  box-shadow:  5px 5px 3px black;
+}
+
+.card-white h2 {
+  margin: 20px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.card-white, #introduction{
+  margin: 40px;
+  background-color: white;
+  margin: 1px;
+  padding-top: 0.1px;
+  padding-bottom: 0.01px;
+  font-size: 20px;
+  color: #455fdc;
+  font-weight: bold;
+}
+
+.card-social{
+  background-color: white;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.card-social h2{
+  margin-top: 10px;
+  padding-top: 1%;
+  color: rgb(29, 20, 20);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 8px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(7, 59, 230);
+}
+
+.flex-box {
+  flex-wrap: wrap;
+  /* padding: 5px; */
+  padding-bottom: 5%;
+  background-color: #f2f4fe;
+
+}
+
+.movie-flex {
+  display: flex;
+  align-content: space-evenly;
+  /* padding-left: 5%; */
+}
+
+.botao{
+  margin: 20px;
+  padding-top: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .flex-box {
+    width: 500px;
+  }
+  .movie-flex {
+    width: 500px;
+  }
+  .botao {
+    width: 500px;
+  }
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+      background-color: red;
+    }
+    .flex-box {
+      width: 100%;
+    }
+    .movie-flex {
+      width: 100%;
+    }
+    .botao {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      background-color: blue;
+      width: 500px;
+    }
+    .flex-box {
+      width: 500px;
+    }
+    .movie-flex {
+      width: 500px;
+    }
+    .botao {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+
+    .container {
+      width: 100%;
+      background-color: yellow;
+    }
+    .flex-box {
+      width: 100%;
+    }
+    .movie-flex {
+      width: 70%;
+    }
+    .botao {
+      width: 100%;
+    }
+  }
+}
